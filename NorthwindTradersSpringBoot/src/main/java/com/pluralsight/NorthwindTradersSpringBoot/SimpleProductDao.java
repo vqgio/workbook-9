@@ -14,6 +14,8 @@ public class SimpleProductDao implements ProductDao {
         products.add(new Product(1, "Laptop", 799.99, "Electronics"));
         products.add(new Product(2, "Coffee Maker", 49.99, "Appliances"));
         products.add(new Product(3, "Notebook", 4.99, "Stationary"));
+        products.add(new Product(4, "Booty Rash Cream", 8.99, "Pharmacy"));
+        products.add(new Product(5, "Barebell Protein Bar", 2.99, "Healthy Living"));
     }
 
     @Override
