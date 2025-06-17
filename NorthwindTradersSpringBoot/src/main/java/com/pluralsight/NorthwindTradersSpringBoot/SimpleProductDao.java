@@ -7,7 +7,7 @@ import java.util.List;
 
 @Component
 public class SimpleProductDao implements ProductDao {
-    private final List<Product> products = new ArrayList<>();
+     private final List<Product> products = new ArrayList<>();
 
     public SimpleProductDao() {
         // Pre-populating products

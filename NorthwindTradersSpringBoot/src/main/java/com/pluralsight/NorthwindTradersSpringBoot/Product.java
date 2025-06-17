@@ -6,6 +6,7 @@ public class Product {
     String category;
     double price;
 
+    //region setters and getters
     public int getProductId() {
         return productId;
     }
@@ -37,6 +38,7 @@ public class Product {
     public void setPrice(double price) {
         this.price = price;
     }
+    //endregion
 
     public Product(int productId, String name, double price, String category) {
         this.productId = productId;

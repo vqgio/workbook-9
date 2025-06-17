@@ -1,5 +1,7 @@
 package com.pluralsight.NorthwindTradersSpringBoot;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
 public interface ProductDao {
