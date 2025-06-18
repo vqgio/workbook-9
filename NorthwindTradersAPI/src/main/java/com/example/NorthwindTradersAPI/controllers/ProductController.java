@@ -23,7 +23,7 @@ public class ProductController {
     public List<Product> getAllProducts() {
         return new ArrayList<>(products);
     }
-    @GetMapping
+    @GetMapping("/{id}")
     public Product getProductById(@PathVariable int id) {
         for (Product product : products) {
             if (product.getProductId() == id) {
