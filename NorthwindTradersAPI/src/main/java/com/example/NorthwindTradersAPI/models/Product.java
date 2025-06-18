@@ -29,4 +29,9 @@ public class Product {
         return unitPrice;
     }
     //endregion
+
+    public String toString() {
+        return("Product ID: " + productId + "Product Name: " + productName +
+                "\nCategory ID: " + categoryId + "Price: " + unitPrice);
+    }
 }
