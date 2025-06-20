@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class DatabaseConfiguration {
-    private BasicDataSource basicDataSource;
+    private final BasicDataSource basicDataSource;
 
     @Bean
      public DataSource dataSource() {
