@@ -21,17 +21,33 @@ public class Product {
         return productName;
     }
 
-    public int getCategoryId() {
+    public int getCategoryId(String categoryID) {
         return categoryId;
     }
 
-    public double getUnitPrice() {
-        return unitPrice;
+    public double getUnitPrice(String unitPrice) {
+        return this.unitPrice;
     }
     //endregion
 
     public String toString() {
         return("Product ID: " + productId + "Product Name: " + productName +
                 "\nCategory ID: " + categoryId + "Price: " + unitPrice);
+    }
+
+    public void setProductId(int productId) {
+        this.productId = productId;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
+    }
+
+    public void setUnitPrice(double unitPrice) {
+        this.unitPrice = unitPrice;
     }
 }
